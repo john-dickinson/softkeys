@@ -16,6 +16,7 @@ var keypress_module = {
       audioElement.duration > 0 ? audioElement.stop() : audioElement.play();
     }
   },
+
   release: function(key){
     if(key.which in key_dict){
       var key_val = key.keyCode;
